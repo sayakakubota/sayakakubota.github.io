@@ -1,0 +1,22 @@
+#container{
+    width: 950px;
+    margin: 50px auto;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left{
+    width: 300px;
+    background-color: #aaeeff;
+}
+#right{
+    width: 500px;
+    background-color: #ffeecc;
+}
+
+@media(max-width: 768px){
+	#container{
+		background-color: #FF0000
+	}	
+}
